@@ -39,6 +39,13 @@ class _TasarimTekrarState extends State<TasarimTekrar> {
             decoration: BoxDecoration(border: Border()),
             //alignment: Alignment.center, // Aligment tüm ekranı kaplar.
           ),
+          Container(
+            color: Colors.red,
+            width: 100,
+            height: 100,
+            alignment: Alignment.center, // Sadece bu container'ı kapsar.
+            child: Text("Merhaba"),
+          ),
         ],
       ),
     );
